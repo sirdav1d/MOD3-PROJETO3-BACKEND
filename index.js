@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const routeRaM = require('./src/routes/character.route');
 const connectToDatabase = require('./src/database/DBConnection');
-const swaggerRoute = require('./src/routes/swagger.route');
+const swaggerRoute = require('./src/swagger/swagger.route');
 
 const port = process.env.PORT || 3000;
 const app = express();
