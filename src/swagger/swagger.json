@@ -13,6 +13,9 @@
   "servers": [
     {
       "url": "https://api-ramv1.herokuapp.com/RickandMorty",
+      "description": "API de produção"
+    },{
+      "url": "https://api-ramv1.herokuapp.com/api-docs",
       "description": "API de teste"
     }
   ],
